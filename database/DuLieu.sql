@@ -1,0 +1,14 @@
+CREATE DATABASE DuLieu;
+GO
+
+USE DuLieu;
+GO
+
+CREATE TABLE CongViec
+(
+	MaCongViec NVARCHAR (10) PRIMARY KEY,
+	TenCongViec nText NOT NULL,
+	LuongThang NVARCHAR (8) NOT NULL
+);
+GO
+
